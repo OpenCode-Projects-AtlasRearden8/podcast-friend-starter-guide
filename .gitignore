@@ -1,11 +1,15 @@
-# Python
-__pycache__/
-*.pyc
-.pytest_cache/
 
 # Generated episode drafts (contain local notes by design)
-/episodes/
-
 # Local scratch
-/tmp/
+# Python
+*.pyc
 .DS_Store
+.env
+.env.*
+.pytest_cache/
+.venv/
+/episodes/
+/tmp/
+__pycache__/
+dist/*.tmp
+node_modules/
