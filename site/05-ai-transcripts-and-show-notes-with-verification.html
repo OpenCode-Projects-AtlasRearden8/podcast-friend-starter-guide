@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="description" content="Local AI transcription, a show-notes template, and the non-negotiable human verification checklist.">
+<title>AI transcripts and show notes, with verification</title>
+<link rel="stylesheet" href="./assets/style.css">
+<link rel="icon" href="data:,">
+</head>
+<body>
+<header class="site-head">
+  <p class="site-title"><a href="./">Podcast Friend Starter Guide</a></p>
+  <p class="site-note">A calm manual for starting a small podcast or audio show</p>
+</header>
+<nav class="site-nav" aria-label="Site pages">
+  <ul>
+<li><a href="00-introduction.html">Ch. 00</a></li>
+<li><a href="01-what-to-say-before-you-buy-anything.html">Ch. 01</a></li>
+<li><a href="02-bedroom-recording-on-a-budget.html">Ch. 02</a></li>
+<li><a href="03-free-editing-and-hosting-compared.html">Ch. 03</a></li>
+<li><a href="04-episode-structure-you-can-sustain.html">Ch. 04</a></li>
+<li class="current"><a href="05-ai-transcripts-and-show-notes-with-verification.html">Ch. 05</a></li>
+<li><a href="06-guest-etiquette.html">Ch. 06</a></li>
+<li><a href="07-consistency-without-burnout.html">Ch. 07</a></li>
+<li><a href="08-quitting-politely.html">Ch. 08</a></li>
+<li><a href="glossary.html">Glossary</a></li>
+<li><a href="worksheets/show-on-a-page.html">Worksheet: Show On A Page</a></li>
+<li><a href="worksheets/episode-planner.html">Worksheet: Episode Planner</a></li>
+<li><a href="worksheets/gear-budget.html">Worksheet: Gear Budget</a></li>
+<li><a href="worksheets/transcript-verification-checklist.html">Worksheet: Transcript Verification Checklist</a></li>
+  </ul>
+</nav>
+<main>
+<h1 id="ai-transcripts-and-show-notes-with-verification">AI transcripts and show notes, with verification</h1>
+<p>AI can write a full transcript and a draft of your show notes before your tea is cold. It can also confidently rename your guest, invent a statistic you never said, or put a sentence in your mouth that you did not say and do not want credited. This chapter gives you a calm pipeline: AI does the tedious first pass, you — the human being in the room — verify everything before it publishes.</p>
+<blockquote>
+<p><strong>The short version:</strong> Transcribe locally if you can (free, private). Turn the transcript into show notes with a template, not vibes. Then verify against three things: your own ears, your own notes, and named sources. The <a href="worksheets/transcript-verification-checklist.html">verification worksheet</a> is the checklist you run every time. Nothing AI-touched publishes unreviewed.</p>
+</blockquote>
+<h2 id="the-golden-rule">The golden rule</h2>
+<blockquote>
+<p><strong>AI drafts; humans verify; nothing publishes unreviewed.</strong></p>
+</blockquote>
+<p>Every paragraph below is a way of making that rule automatic — because "I'll remember to check it later" is not a process, it's a hope.</p>
+<h2 id="transcription-local-first-cloud-second">Transcription: local first, cloud second</h2>
+<p>Your episode audio usually contains your voice, your thinking, your plans. There is no urgent reason it must leave your computer.</p>
+<ul>
+<li><strong>Local, free, private: run Whisper yourself.</strong> Whisper is OpenAI's open-source speech-to-text model. The easiest local route is <strong>whisper.cpp</strong> or <strong>faster-whisper</strong>: download once, then transcribe on your own machine with no account and no upload. A laptop runs the small model well enough for a spoken-word show (expect slower-than-real-time on very old machines; any computer made this decade handles the base model fine). Output: timestamped text — exactly what the next section wants.</li>
+<li><strong>Cloud, free tiers:</strong> various services transcribe 30–300 minutes free per month with an account. Convenient, but your audio goes to someone else's disk. Fine for public episodes; be careful with unedited practice takes, private notes episodes, or anything guest-related the guest didn't consent to.</li>
+<li><strong>The transcript itself is doing double duty.</strong> A timestamped transcript is also how you can search your own back episodes ("which episode explained RSS feeds?") — a one-file archive of your own thinking. That alone is worth the fifteen minutes.</li>
+</ul>
+<p>Accuracy reality check: even great transcription gets proper nouns wrong. Your guest Mikaela becomes "Michaela," your cover of "KDP" becomes "K D B." That is why verification is not optional politeness — it's where you catch it.</p>
+<h2 id="show-notes-a-template-beats-a-blank-page">Show notes: a template beats a blank page</h2>
+<p>Show notes exist for three jobs, and only three: help the episode get found, help the listener decide to press play, and carry the links they need later. A template (which you can also run through an AI assistant as raw material) looks like this:</p>
+<blockquote>
+<p><strong>Episode title</strong></p>
+<p><strong>One-sentence promise</strong> (the listener-facing "why press play")</p>
+<p><strong>What you'll learn</strong> — 3 plain bullets, the episode's three deliverables in order</p>
+<p><strong>Timestamps</strong> 00:00 Cold open: [sentence] 01:12 The room 06:40 Mic technique 12:05 The one purchase that matters</p>
+<p><strong>Links and things mentioned</strong> — each with one line on why it's useful</p>
+<p><strong>The one action for this week</strong> — the call to action from your planner</p>
+<p><strong>Where to find the show</strong> — your feed URL and hub page</p>
+</blockquote>
+<p>Fill it by hand, or give the transcript to an AI assistant along with the template and say "draft this, do not invent anything, mark anything uncertain with [CHECK]." The instruction to mark uncertainty is the whole game: it changes the AI from a confident liar into a useful apprentice. Then you verify anyway.</p>
+<h3 id="what-ai-reliably-gets-wrong-in-transcripts-and-notes">What AI reliably gets wrong in transcripts and notes</h3>
+<ul>
+<li><strong>Names.</strong> Guests, tools, authors, companies. Verify every proper noun against the recording or the guest's own site.</li>
+<li><strong>Numbers.</strong> "40 dollars" becomes "$14." "12 minutes" becomes "20 minutes." Check against your spoken tape.</li>
+<li><strong>Quotes.</strong> AI smooths and shortens quotes into what you <em>meant</em> to say — which is not the same thing. If you use a quote from your own episode on the transcript-based audiogram, cut it from the actual audio file, not from the AI's version.</li>
+<li><strong>Claims and attributions.</strong> "Studies show..." gets converted into confident sentences with invented citations. If your episode cited anything, re-find the actual source and link it. Never let show notes link a study you haven't opened.</li>
+<li><strong>Comma splice of "um."</strong> Fine — but only clean "um" out of <em>transcripts read as text</em>, not from the aired audio.</li>
+</ul>
+<h2 id="the-verification-pass-concretely-about-10-minutes-per-episode">The verification pass, concretely (about 10 minutes per episode)</h2>
+<p>Run the <a href="worksheets/transcript-verification-checklist.html">transcript and show-notes verification checklist</a> every time. It compresses to these steps:</p>
+<ol>
+<li><strong>Names and numbers first</strong> — cross-check against the audio and against one independent source (the tool's website, the guest's site, the study itself).</li>
+<li><strong>Quotes third</strong> — every quoted sentence played back from the audio file.</li>
+<li><strong>Timestamps fourth</strong> — spot-check three: start, middle, end. Fix the rest if they drift.</li>
+<li><strong>Links last</strong> — click every link in the notes and on the episode page. A stale link is the most common broken thing on a show-notes page, and it is invisible until you click it yourself.</li>
+<li><strong>Tone check on AI-smoothed text.</strong> Read your own paragraph aloud. If it sounds like a press release instead of you, rewrite those sentences in your own voice. Show notes are a friend speaking, not a brochure.</li>
+</ol>
+<p>Then — and this part is <em>not</em> optional politeness — when AI drafting had material effect on your published page, your show notes should say so honestly in one line ("Transcript drafted by an AI tool, then checked by hand"). It's one sentence, it's true, and listeners appreciate engineers who tell the truth twice.</p>
+<h2 id="a-weekly-rhythm-that-stays-calm">A weekly rhythm that stays calm</h2>
+<ul>
+<li>Record &gt; transcribe while freshness is high (right after editing).</li>
+<li>AI-suggested episode titles, timestamps, and summary bullets: accept, reject, and rewrite — it's a ten-minute job with your template open.</li>
+<li>Copy the final, <em>verified</em> notes into your host's episode form, because the copy on the host is what listeners read — not your file.</li>
+<li>File the verified transcript with the episode's folder (Chapter 2's structure) — your searchable archive grows for free.</li>
+</ul>
+<p>The rhythm matters more than the tool choice: transcription today is good everywhere, and will only get better. Your pipeline (local transcribe → template → verify → publish) is what stays stable across every tool change in the next five years.</p>
+<h2 id="two-donts-that-save-careers">Two "don'ts" that save careers</h2>
+<ul>
+<li><strong>Don't publish an AI transcript raw.</strong> Wrong guest names have ended collaborations; wrong quotes have created small controversies. Five minutes of checking isn't a cost — it's the difference between a self-editing archive you own and an embarrassing public page you forgot to check.</li>
+<li><strong>Don't outsource judgment.</strong> The AI can suggest which segment was "most important" — you decide. It summarizes what was said; you know what mattered. The verification worksheet is deliberately about facts, because facts are checkable and taste is yours.</li>
+</ul>
+<hr>
+<p>Next: <strong><a href="06-guest-etiquette.html">Guest etiquette, from invite to thank-you</a></strong></p>
+<nav class="pagenav"><a class="prev" href="04-episode-structure-you-can-sustain.html">&larr; An episode structure you can sustain</a>
+<a class="up" href="./index.html">Index</a>
+<a class="next" href="06-guest-etiquette.html">Guest etiquette, from invite to thank-you &rarr;</a></nav>
+</main>
+<footer class="site-foot">
+  <p>&copy; 2026 Asdale Dynamics, LLC &middot; MIT license &middot;
+  companion to the <strong>audiobook-recording handbook</strong> &middot;
+  <a href="https://dylanasdale.github.io/">dylanasdale.github.io</a></p>
+  <p class="small">Local-first and tested. No network needed to read, build, or test this guide.</p>
+  <p class="small">Built 2026-10-31</p>
+</footer>
+</body>
+</html>

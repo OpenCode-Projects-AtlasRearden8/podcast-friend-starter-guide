@@ -1,0 +1,11 @@
+# Python
+__pycache__/
+*.pyc
+.pytest_cache/
+
+# Generated episode drafts (contain local notes by design)
+/episodes/
+
+# Local scratch
+/tmp/
+.DS_Store
